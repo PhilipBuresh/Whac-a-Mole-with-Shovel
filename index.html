@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./res/css/style.css">
+    <title>Whac-A-Mole-With-Shovel</title>
+    <link rel="icon" href="./res/img/shovel.png" type="image/x-icon">
+</head>
+<body>
+    <audio id="music1" src = "./res/audio/music1.mp3" type="audio/mpeg"></audio>
+    <audio id="music2" src = "./res/audio/music2.mp3" type="audio/mpeg"></audio>
+    <audio id="end" src = "./res/audio/end.mp3" type="audio/mpeg"></audio>
+    <div id="mainStart">
+        <div id="whac">Whac A Mole With Shovel</div>
+        <div id="flak">Flákni Krtečka Lopatkou</div>
+        <img id="hello" draggable="false" src="./res/gif/hello.gif" alt="hello">
+        <div id="start">
+            <div id="play">play</div>
+        </div>
+        <img id="help" src="./res/img/paper.png" alt="help">
+        <div id="warning">WARNING</div>
+        <div id="info1">Play with 1920x1080</div>
+        <div id="info2">The game does not SAVE</div>
+    </div>
+    
+    <div id="lobby">
+        <div id="flex">
+        <div id="double_points">DOUBLE POINTS</div>
+        <div id="score">0</div>
+        <div id="time">60s</div>
+        <div id="best">Best: 0</div>
+        <img id="krtecek1" draggable="false" src="./res/img/krtecek.png" alt="krtecek">
+        <img id="big_krtecek1" draggable="false" src="./res/img/big_krtecek.png" alt="big_krtecek">
+        <img id="krtecek1_freeze" draggable="false" src="./res/img/krtecek_freeze.png" alt="krtecek_freeze">
+        <img id="krtecek1_double" draggable="false" src="./res/img/krtecek_double.png" alt="krtecek_double">
+        <img id="krtecek1_thief" draggable="false" src="./res/img/krtecek_thief.png" alt="krtecek_thief">
+
+        <img id="krtina4" draggable="false"  src="./res/img/krtina.png" alt="krtina1" >
+        <img id="krtina5" draggable="false"  src="./res/img/krtina.png" alt="krtina1" >
+        <img id="krtina6" draggable="false"  src="./res/img/krtina.png" alt="krtina1" >
+        <img id="krtina1" draggable="false" src="./res/img/krtina.png" alt="krtina1" >
+        <img id="krtina2" draggable="false"  src="./res/img/krtina.png" alt="krtina1" >
+        <img id="krtina3" draggable="false"  src="./res/img/krtina.png" alt="krtina1" >
+    </div>
+    </div>
+
+    <div id="mainEnd">
+        <div id="yourScore">Your Score: 0</div>
+        <div id="newBest">NEW BEST</div>
+        <div id="joke">Krteček se činil, ukradl ti lopatku :(</div>
+        <img id="thief" draggable="false" src="./res/img/thief.png" alt="krtecek_thief">
+        <div id="start2">
+            <div id="play2">Play Again</div>
+        </div>
+        <img id="help" src="./res/img/paper.png" alt="help">
+    </div>
+
+    <script src="./res/js/main.js"></script>
+</body>
+</html>
