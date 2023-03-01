@@ -1,2 +1,2 @@
 # Whac-a-Mole-with-Shovel
-[Play!](ještě nefunguje)
+<b>[Play!](https://philipburesh.github.io/Whac-a-Mole-with-Shovel/)</b>
